@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currency Converter</title>
+
+    <!-- Shared CSS file used by all three applications -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <section class="card">
+
+            <h1>Currency Converter</h1>
+            <p>Convert currencies using live exchange rates.</p>
+
+            <!-- Amount entered by the user -->
+            <label for="amount">Amount</label>
+            <input
+                type="number"
+                id="amount"
+                placeholder="Enter amount"
+                min="0"
+            >
+
+            <div class="currency-row">
+
+                <!-- Currency we are converting FROM -->
+                <div>
+                    <label for="fromCurrency">From</label>
+
+                    <select id="fromCurrency">
+                        <option value="KES">KES - Kenyan Shilling</option>
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="TZS">TZS - Tanzanian Shilling</option>
+                        <option value="UGX">UGX - Ugandan Shilling</option>
+                    </select>
+                </div>
+
+                <!-- Currency we are converting TO -->
+                <div>
+                    <label for="toCurrency">To</label>
+
+                    <select id="toCurrency">
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="KES">KES - Kenyan Shilling</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="TZS">TZS - Tanzanian Shilling</option>
+                        <option value="UGX">UGX - Ugandan Shilling</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="button-row">
+                <button id="convertBtn">Convert</button>
+                <button id="swapBtn" class="secondary-btn">Swap</button>
+            </div>
+
+            <!-- JavaScript will display loading information here -->
+            <p id="loading"></p>
+
+            <!-- JavaScript will display errors here -->
+            <p id="error" class="error"></p>
+
+            <!-- JavaScript will display the conversion result here -->
+            <div id="result" class="result"></div>
+
+        </section>
+    </main>
+
+    <script src="currency.js"></script>
+
+</body>
+</html>

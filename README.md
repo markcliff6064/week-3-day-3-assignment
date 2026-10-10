@@ -11,6 +11,8 @@ This project contains three JavaScript applications built to practice **APIs, fe
 * Includes Convert and Swap buttons.
 * Handles loading and API errors.
 
+![shown](https://github.com/markcliff6064/week-3-day-3-assignment/blob/b6c68c703129f7b77be3afc4c14598e6f44e1b2b/Screenshot1.jpg)
+
 ### 2. GitHub Profile Viewer
 
 * Searches for GitHub users.
@@ -19,6 +21,8 @@ This project contains three JavaScript applications built to practice **APIs, fe
 * Includes 5-minute localStorage caching.
 * Handles users that do not exist.
 
+![shown](https://github.com/markcliff6064/week-3-day-3-assignment/blob/b6c68c703129f7b77be3afc4c14598e6f44e1b2b/Screenshot2.jpg)
+
 ### 3. News Headline Aggregator
 
 * Displays 10 sample news articles.
@@ -26,6 +30,7 @@ This project contains three JavaScript applications built to practice **APIs, fe
 * Includes category filtering.
 * Displays title, source, date, and Read More link.
 
+![shown](https://github.com/markcliff6064/week-3-day-3-assignment/blob/b6c68c703129f7b77be3afc4c14598e6f44e1b2b/Screenshot3.jpg)
 ## Technologies
 
 * HTML
